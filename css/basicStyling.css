@@ -1,0 +1,61 @@
+.bg {
+   position: fixed;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   z-index: -1;
+}
+
+.bg:before {
+   content: '';
+   position: absolute;
+   background: url('../images/capture.jpg') no-repeat;
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+}
+
+.bg:after {
+   content: '';
+   position: absolute;
+   /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#606c88+0,3f4c6b+100;Grey+3D+%232 */
+   background: #606c88; /* Old browsers */
+   background: -moz-linear-gradient(top,  #606c88 0%, #3f4c6b 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #606c88 0%,#3f4c6b 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #606c88 0%,#3f4c6b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#606c88', endColorstr='#3f4c6b',GradientType=0 ); /* IE6-9 */
+   width: 100%;
+   height: 100%;
+   top: 0;
+   left: 0;
+   opacity: 0.7;
+}
+
+.wrapper-content {
+    background: transparent;
+    color: #fff;
+    box-shadow: none;
+}
+
+.wrapper-content .select-wrapper span.caret{
+   color: #fff;
+}
+
+.wrapper-content .select-wrapper input.select-dropdown {
+   border-color: rgba(255, 255, 255, 0.7);
+}
+
+#section-2-contents {
+    display: flex;
+    position: absolute;
+    height: calc(100% - 64px);
+    width: 100%;
+    align-items: center;
+}
+
+.card-wrapper {
+   flex: 1;
+}
